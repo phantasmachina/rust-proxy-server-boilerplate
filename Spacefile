@@ -1,0 +1,14 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: main
+    src: .
+    engine: custom
+    dev: cargo run
+    commands: 
+      - cargo build
+    run: target/debug/./rust-ssp-boilerplate
+    include:
+      - target/debug/rust-ssp-boilerplate
+    public: true
+
