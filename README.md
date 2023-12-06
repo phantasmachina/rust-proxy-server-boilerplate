@@ -8,6 +8,10 @@ It even removes the typical hassle of OpenSSL (in)compatibility by solely focusi
 ### Running the Project
 A main focus was cross-compatibility, but this boilerplate was initially built to run on the free, private cloud hosting service, https://deta.space
 
+Because of this, includes a Spacefile config to easily launch this on Space.
+
+With the Space CLI installed, clone this repository and type ```space new```.
+
 ### Configuration
 There are two included domains listed within the CORS policy as placeholders.
 
